@@ -1,0 +1,79 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Tahoma;
+  font-size: 1rem;
+  color: #333;
+  background-color: #fbfbfb;
+  min-height: 100%; 
+}
+
+header {
+  background-color: #333;
+  color: #fbfbfb;
+  width: 100%;
+  padding: 1vh 0 1vh 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fbfbfb;
+}
+
+fieldset { 
+  border: 1.5px solid #333;
+  margin: 2em;
+  background-color: #fbfbfb;
+}
+
+
+h1, p {  
+    text-align: center;
+}
+
+.name {
+  display: inline;
+}
+
+
+legend {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  background-color: #fbfbfb;
+}
+
+label {
+  display: block;
+  padding: 0.2rem;
+}
+
+#action-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input, select {
+  color: #333;
+  background-color: #fbfbfb;
+  border: 1px solid #333;
+}
+
+input[type="button"]:hover {
+  background-color: #333;
+  color: #fbfbfb;
+}
+
+/* Making submit button larger */
+input[type="submit"] {
+  display: block;
+  margin: auto;
+  font-size: 1rem;
+  padding: 4px;
+}
+
+
+
