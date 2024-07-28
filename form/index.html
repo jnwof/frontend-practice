@@ -14,55 +14,60 @@
     </header>
     
     <main>
-        <!--Personal Information-->
-        <fieldset> <!--Group sections in a form using fieldsets!-->
-            <legend>Personal Information</legend>
-            <div id="personal-info">
-                <label class="name" for="full-name">Full name <input  id="first-name" type="text" required></label> 
-            </div>
-        </fieldset>
+        <!--shrinking fieldset width-->
+        <div id="shrink-width">
+            <!--Personal Information-->
+            <fieldset> <!--Group sections in a form using fieldsets!-->
+                <legend>Personal Information</legend>
+                <div id="personal-info">
+                    <label class="name" for="full-name">Full name <input  id="first-name" type="text" required></label> 
+                </div>
+            </fieldset>
 
-        <!--Actions (Take, Return, Stock, Request)-->
-        <fieldset>
-            <legend>Actions</legend>
-            <label>What would you like to do today?</label>
-            <!--Each button loads up a different form-->
-            <div id="action-buttons">
-                <input type="button" value="Take an item">
-                <input type="button" value="Return an item">
-                <input type="button" value="Request an item">
-            </div>
-        </fieldset>
+            <!--Actions (Take, Return, Stock, Request)-->
+            <fieldset>
+                <legend>Actions</legend>
+                <label id="action-label">What would you like to do today?</label>
+                <!--Each button loads up a different form-->
+                <div id="action-buttons">
+                    <input type="button" value="Take an item">
+                    <input type="button" value="Return an item">
+                    <input type="button" value="Request an item">
+                </div>
+            </fieldset>
 
-        <!--Form: Taking an Item-->
-        <fieldset>
-            <legend>Taking an Item</legend>
-        <label for="take-item-dropdown">What item are you taking?
-            <select name="taking-item" id="take-item-dropdown" required>
-                    <option value="ilovemath">I Love Math Sticker</option>
-                    <option value="pink-pen">Pink Math Pen</option>
-                    <option value="math-brochure">2024 Math Brochure</option>                
-                </select>
-            </label>
-            <label for="quantity-taken">How many are you taking?
-                <input id="quantity-taken" type="number" required>
-            </label>
-        </fieldset>
+            <!--Form: Taking an Item-->
+            <fieldset>
+                <legend>Taking an Item</legend>
+            <label for="take-item-dropdown">What item are you taking?
+                <select name="taking-item" id="take-item-dropdown" required>
+                        <option value="blank" selected></option>
+                        <option value="ilovemath">I Love Math Sticker</option>
+                        <option value="pink-pen">Pink Math Pen</option>
+                        <option value="math-brochure">2024 Math Brochure</option>                
+                    </select>
+                </label>
+                <label for="quantity-taken">How many are you taking?
+                    <input id="quantity-taken" type="number" required>
+                </label>
+            </fieldset>
 
-        <!--Form: Returning an Item-->
-        <fieldset>
-            <legend>Returning an Item</legend>
-            <label for="return-item-dropdown">What item are you returning?
-                <select name="taking-item" id="return-item-dropdown" required>
-                    <option value="ilovemath">I Love Math Sticker</option>
-                    <option value="pink-pen">Pink Math Pen</option>
-                    <option value="math-brochure">2024 Math Brochure</option>
-                </select>
-            </label>
-            <label for="quantity-returned">How many are you returning?
-                <input id="quantity-returned" type="number" required>
-            </label>
-        </fieldset>
+            <!--Form: Returning an Item-->
+            <fieldset>
+                <legend>Returning an Item</legend>
+                <label for="return-item-dropdown">What item are you returning?
+                    <select name="taking-item" id="return-item-dropdown" required>
+                        <option value="blank" selected></option>
+                        <option value="ilovemath">I Love Math Sticker</option>
+                        <option value="pink-pen">Pink Math Pen</option>
+                        <option value="math-brochure">2024 Math Brochure</option>
+                    </select>
+                </label>
+                <label for="quantity-returned">How many are you returning?
+                    <input id="quantity-returned" type="number" required>
+                </label>
+            </fieldset>
+        </div>
 
         <!--Submit-->
         <input type="submit" value="Submit">
