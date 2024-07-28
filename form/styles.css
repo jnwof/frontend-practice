@@ -21,12 +21,14 @@ header {
 footer {
   background-color: #333;
   color: #fbfbfb;
+  text-align: center;
 }
 
 fieldset { 
   border: 1.5px solid #333;
   margin: 2em;
   background-color: #fbfbfb;
+  display: block;
 }
 
 
@@ -34,6 +36,15 @@ h1, p {
     text-align: center;
 }
 
+footer p {
+  margin-top: 0;
+  padding-bottom: 12px;
+}
+
+footer h4 {
+  padding-top: 12px;
+  margin-bottom: 0;
+}
 .name {
   display: inline;
 }
@@ -51,18 +62,32 @@ label {
   padding: 0.2rem;
 }
 
+#shrink-width {
+  width: 38rem;
+  margin: auto;
+}
+
+#action-label {
+  margin-bottom: 8px;
+}
+
 #action-buttons {
+  gap: 0; 
+  margin: 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 input, select {
   color: #333;
   background-color: #fbfbfb;
   border: 1px solid #333;
+  font-size: 18px;
+  height: 1.8rem;
+  width: 10rem;
 }
 
-input[type="button"]:hover {
+input[type="button"]:hover, input[type="submit"]:hover {
   background-color: #333;
   color: #fbfbfb;
 }
@@ -70,10 +95,6 @@ input[type="button"]:hover {
 /* Making submit button larger */
 input[type="submit"] {
   display: block;
-  margin: auto;
+  margin: auto auto 1rem auto;
   font-size: 1rem;
-  padding: 4px;
 }
-
-
-
