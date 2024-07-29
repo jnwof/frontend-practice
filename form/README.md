@@ -1,4 +1,4 @@
-# Inventory Management Form (Beta)
+# Inventory Management Form (In-progress)
 ## The first static page I have ever made using HTML and CSS! 
 
 I started learning frontend development around June 2024. At the same itme, I was working as the Undergraduate Recruitment and Outreach Assistant 
