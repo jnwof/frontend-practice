@@ -1,7 +1,7 @@
 # Inventory Management Form (In-progress)
 ## The first static page I have ever made using HTML and CSS! 
 
-I started learning frontend development around June 2024. At the same time, I was a co-op student working as the Undergraduate Recruitment and Outreach Assistant for the Faculty of Mathematics at Waterloo. One component that the the team was responsible for was the open house events, where we would invite guests, usually students and their families, to the university for a visit. 
+I started learning frontend development around mid-June 2024. At the same time, I was a co-op student working as the Undergraduate Recruitment and Outreach Assistant for the Faculty of Mathematics at Waterloo. One component that the the team was responsible for was the open house events, where we would invite guests, usually students and their families, to the university for a visit. 
 
 While helping set up the venues for these events, I found myself moving in and out of our storage room frequently to
 pick-up and deliver necessary items. However, there were multiple instances during these efforts where some items could not be found, they were either hidden or lost!
