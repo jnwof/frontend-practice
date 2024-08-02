@@ -1,0 +1,108 @@
+body {
+    background-color: hsl(221, 100%, 96%);
+    height: 100%;
+    width: 100%;
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 14px;
+    padding: 14px;
+    background-color: grey;
+}
+
+p img {
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+input[type="button"] {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.rounded {
+    border-radius: 24px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#display {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    height: 58vh;
+    width: 665px; 
+}
+
+#continue {
+    color: white;
+    border-radius: 16px;
+    padding: 14px 70px 14px 70px;
+    margin: 14px;
+    background-color: hsl(224, 30%, 27%);
+}
+
+#circle {
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    height: 170px;
+    width: 170px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsl(241, 72%, 46%));
+    border-radius: 100%;
+}
+
+#total {
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    margin: 0;
+}
+
+#summary {
+    width: 40%;
+    position: relative;
+    left: 55%;
+    bottom: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+#score {
+    text-align: end;
+}
+
+#reaction {
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 10%);
+}
+
+#memory {
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 10%);
+}
+
+#verbal {
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 10%);
+}
+
+#visual {
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 10%);
+}
